@@ -1,3 +1,54 @@
+html{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#top{
+	color:#f3f3f3;
+	font-family: Lato, sans-serif;
+	border-bottom: 100px;
+	padding-bottom: 100px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+	width: 900px;
+}
+
+h1, h2{
+	font-family: Rokkitt, sans-serif;
+	color: #444444;
+	
+}
+
+.subDetails{
+	font-style: italic;
+}
+
+.mainDetails{
+	color:#181818;
+	padding-top:70px;
+	margin: 40px 40px 5px 80px;
+	border: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #cf8a05;
+}
+
+#mainArea{
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+#mainArea h1{
+	font-weight: 100;
+	font-style: italic;
+	color: #cf8a05;
+}
+
+
+#mainArea section + section{
+	border-top-style: solid ;
+	border-color: #dedede;
+}
+
 .clear {
 	clear: both;
 }
@@ -8,12 +59,29 @@
 	margin-right: 30px;
 }
 
+#headshot img{
+	border-radius: 70px;
+}
+
+.p{
+	margin-right: 20px;
+	color:#181818;
+}
+
+
 #name {
+	margin-left: 80px;
+	font-weight: bolder;
 	float: left;
 }
 
 #contactDetails {
+	color:#181818;
 	float: right;
+}
+section{
+	color:#181818;
+	border: 1px;
 }
 
 .sectionTitle {
@@ -24,4 +92,16 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+.sectionContent h2{
+	font-weight: 500;
+}
+
+ul, li, ol{
+	list-style: none;
+}
+
+a{
+	color:#181818;
 }
